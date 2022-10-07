@@ -1,0 +1,67 @@
+.imagesize {
+  /* width: 100px; */
+  height: 150px;
+}
+.iconsedit {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.likeicon {
+  color: #0d6efd;
+}
+.like {
+  color: #0d6efd;
+}
+.nolike {
+  color: black;
+}
+.deleteicon,
+.delete {
+  color: #dc3545;
+}
+.hashtag {
+  color: #0d6efd;
+}
+.time {
+  color: #adb5bd;
+}
+.flexalignrow {
+  display: flex;
+  flex-direction: row;
+  font-size: 80%;
+  color: #adb5bd;
+  justify-content: space-between;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardsize {
+  width: 60%;
+  margin: auto;
+  height: 60%;
+  display: block;
+}
+.icons {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .cardsize {
+    width: 80%;
+    margin: auto;
+    height: 60%;
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cardsize {
+    width: 95%;
+    margin: auto;
+    height: 60%;
+    display: block;
+  }
+}
